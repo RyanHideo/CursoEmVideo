@@ -1,0 +1,5 @@
+n = input('Insira uma frase: ').strip()
+n = n.upper()
+print(f'A letra A aparece: {n.count('A')}')
+print(f'Ela aparece pela primeira vez na posição: {n.find('A') + 1 - n.count(' ')}')
+print(f'Ela aparece pela ultima eez na posição: {n.rfind('A') + 1 - n.count(' ')}')
